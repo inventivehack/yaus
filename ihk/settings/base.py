@@ -16,8 +16,9 @@ DJANGO_APPS = (
     'django.contrib.admin',
 )
 
-LOCAL_APPS = (
-)
+LOCAL_APPS = ()
+
+THIRD_PARTY_APPS = ()
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
@@ -46,7 +47,7 @@ DATABASES = {
 }
 DATABASES['default']['ATOMIC_REQUESTS'] = True
 
-TIME_ZONE = env.db('DJANGO_TZ', default='America/Mexico_City')
+TIME_ZONE = 'America/Mexico_City'
 
 LANGUAGE_CODE = 'en-us'
 
