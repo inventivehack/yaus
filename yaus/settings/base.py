@@ -96,8 +96,8 @@ STATICFILES_FINDERS = (
 MEDIA_ROOT = str(BASE_DIR('media'))
 MEDIA_URL = '/media/'
 
-ROOT_URLCONF = 'ihk.urls'
+ROOT_URLCONF = 'yaus.urls'
 
-WSGI_APPLICATION = 'ihk.wsgi.application'
+WSGI_APPLICATION = 'yaus.wsgi.application'
 
 ADMIN_URL = 'admin'
