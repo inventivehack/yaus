@@ -7,7 +7,7 @@ class Link(models.Model):
     url = models.CharField(max_length=900, blank=True)
     redirect_url = models.URLField()
 
-    clicks = models.IntegerField(default=0)
+    hits = models.IntegerField(default=0)
 
     # Metadata
     created = models.DateTimeField(auto_now_add=True)
