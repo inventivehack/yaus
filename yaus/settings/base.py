@@ -16,7 +16,9 @@ DJANGO_APPS = (
     'django.contrib.admin',
 )
 
-LOCAL_APPS = ()
+LOCAL_APPS = (
+    'links'
+)
 
 THIRD_PARTY_APPS = ()
 
