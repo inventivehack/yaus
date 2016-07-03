@@ -19,7 +19,7 @@ SECURE_CONTENT_TYPE_NOSNIFF = env.bool(
 )
 SECURE_SSL_REDIRECT = env.bool(
     'DJANGO_SECURE_SSL_REDIRECT',
-    default=True
+    default=False
 )
 SECURE_BROWSER_XSS_FILTER = True
 SESSION_COOKIE_SECURE = False
