@@ -1,0 +1,12 @@
+export DJANGO_SETTINGS_MODULE="yaus.settings.dev" # May change to prod
+export DJANGO_SECRET_KEY=""
+
+export DATABASE_URL='postgres://USER:PASSWORD@127.0.0.1:5432/DB_NAME'
+export DEFAULT_REDIRECT_URL='' # Ex. https://inventivehack.com/
+
+# Production vars
+export DJANGO_ADMIN_URL='' # Ex. aintanadmin
+export DJANGO_STATIC_ROOT=''
+export DJANGO_STATIC_URL='/'
+export DJANGO_MEDIA_ROOT=''
+export DJANGO_MEDIA_URL=''
