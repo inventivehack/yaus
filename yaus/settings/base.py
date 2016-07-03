@@ -16,7 +16,9 @@ DJANGO_APPS = (
     'django.contrib.admin',
 )
 
-LOCAL_APPS = ()
+LOCAL_APPS = (
+    'links',
+)
 
 THIRD_PARTY_APPS = ()
 
@@ -80,6 +82,22 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
             ],
         },
+    },
+]
+
+
+AUTH_PASSWORD_VALIDATORS = [
+    {
+        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
 
